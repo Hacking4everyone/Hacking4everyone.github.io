@@ -5,6 +5,9 @@ header{
 	margin:0 auto;
     font-family: sans-serif;
 	}
+#navigate{position:fixed;
+}
+
 .information_security h2{
 
 		background-color: #e0e0e0;

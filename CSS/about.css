@@ -318,6 +318,84 @@ footer{
 #face{
 	margin-right:15%;
 }
+.blogo{
+	display:inline;
+	float:right;
+	padding-top:0.4%;
+}
+.blogo1{
+	font-family:sans-serif;
+	
+	font-size: 25px;
+	color:#ffffff;
+
+}
+.blogo2{
+	font-family:sans-serif;
+	
+	font-size: 25px;
+	color:#d80650;
+
+}
+.blogo3{
+	font-family:sans-serif;
+	
+	font-size: 25px;
+	color:#ffffff;
+
+}
+@media (max-width:780px){
+	.navigation a{
+		display:none;
+	}
+	
+		.sidebar #mhome{
+		display:block;
+		text-decoration:none;
+	}
+	.sidebar #mabout{
+		display:block;
+		text-decoration: none;
+	}
+	.sidebar #mnews{
+		display:block;
+		text-decoration: none;
+	}
+
+	
+	
+	.blogo{
+		display:none;
+
+	}
+	#phone{
+		font-size: 20px;
+		margin-right:5%;
+	}
+	#insta{
+		font-size:20px;
+        
+	}
+}
+
+@media (max-width:1150px){
+	.menu{
+	display:inline;
+	font-size: 25px;
+	color:#d80650;
+	margin-right: 5%;
+}
+#home{
+	margin-right: 5%;
+}
+#about{
+	margin-right: 5%;
+}
+.blogo{
+		display:none;
+	}
+
+
 
 
 

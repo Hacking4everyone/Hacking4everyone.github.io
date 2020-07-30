@@ -342,7 +342,8 @@ footer{ margin-bottom:2%;
 	width:75%;
 	height:68%;
 	text-align:center;
-	overflow-y:hidden;
+	-webkit-overflow-y: hidden;
+	-moz-overflow-y:hidden;
 	
 
 }

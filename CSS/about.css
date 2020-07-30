@@ -286,7 +286,7 @@
 }
 
 
-footer{
+footer{margin-bottom:2%;
 	background-color:#0e0129;
 }
 	
@@ -310,6 +310,7 @@ footer{
 
 }
 #phone{
+	margin-left:1%;
 	margin-right:15%;
 }
 #insta{
@@ -347,54 +348,29 @@ footer{
 
 }
 @media (max-width:780px){
-	.navigation a{
-		display:none;
-	}
-	
-		.sidebar #mhome{
-		display:block;
-		text-decoration:none;
-	}
-	.sidebar #mabout{
-		display:block;
-		text-decoration: none;
-	}
-	.sidebar #mnews{
-		display:block;
-		text-decoration: none;
-	}
-
-	
-	
-	.blogo{
-		display:none;
+	.blogo{display:none;
+		
 
 	}
 	#phone{
 		font-size: 20px;
-		margin-right:5%;
+		margin-right:08%;
 	}
 	#insta{
+		margin-right:08%;
+		font-size:20px;
+        
+	}
+	#face{
+		margin-right:08%;
 		font-size:20px;
         
 	}
 }
 
 @media (max-width:1150px){
-	.menu{
-	display:inline;
-	font-size: 25px;
-	color:#d80650;
-	margin-right: 5%;
-}
-#home{
-	margin-right: 5%;
-}
-#about{
-	margin-right: 5%;
-}
 .blogo{
-		display:none;
+	display:none;
 	}
 
-
+}
